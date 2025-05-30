@@ -59,4 +59,4 @@ supported_commands_by_ecu:
   - 0142:VPWR
 unsupported_commands_by_ecu:
   744:
-  - 744.74C.22E001
+  - 744.74C.22E001|fc=1:HYUNDAI_DC_CHRG_STATE
