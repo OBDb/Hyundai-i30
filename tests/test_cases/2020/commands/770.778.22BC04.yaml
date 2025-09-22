@@ -1,0 +1,13 @@
+command_id: 770.778.22BC04
+test_cases:
+- expected_values:
+    HYUNDAI_BELT_RL: 0
+    HYUNDAI_BELT_RM: 1
+    HYUNDAI_BELT_RR: 1
+    HYUNDAI_GEAR_R: 0
+    HYUNDAI_LOCK_FL: 0
+    HYUNDAI_LOCK_FR: 0
+    HYUNDAI_REVERSE_GEAR: 0
+  response: |-
+    778100B62BC04F52F77
+    77821E201000A42AAAA

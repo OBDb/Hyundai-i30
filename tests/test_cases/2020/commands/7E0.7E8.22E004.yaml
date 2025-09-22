@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.22E004
+test_cases:
+- expected_values:
+    HYUNDAI_22E004: 100
+  response: |-
+    7E8101A62E004FFFF07
+    7E82100FBF0C073F172
+    7E822B010F0803050F0
+    7E823002030101010AA
