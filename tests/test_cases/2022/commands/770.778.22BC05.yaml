@@ -1,0 +1,58 @@
+command_id: 770.778.22BC05
+test_cases:
+- expected_values:
+    HYUNDAI_HAZARD_SW: 0
+  response: |-
+    778100B62BC052F1320
+    778210000000000AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 0
+  response: |-
+    778100B62BC052F1320
+    778210000080000AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 0
+  response: |-
+    778100B62BC052F1320
+    778210000400000AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 0
+    HYUNDAI_HL_SW: 1
+  response: |-
+    778100B62BC052F1320
+    778210000400400AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 0
+  response: |-
+    778100B62BC052F1320
+    778210000480000AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 0
+    HYUNDAI_HL_SW: 1
+  response: |-
+    778100B62BC052F1320
+    778210000C00400AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 80
+    HYUNDAI_HL_SW: 1
+  response: |-
+    778100B62BC052F1320
+    778210050400400AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 80
+    HYUNDAI_HL_SW: 1
+  response: |-
+    778100B62BC052F1320
+    778210050C00400AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 160
+    HYUNDAI_HL_SW: 1
+  response: |-
+    778100B62BC052F1320
+    7782100A0400400AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 160
+    HYUNDAI_HL_SW: 1
+  response: |-
+    778100B62BC052F1320
+    7782100A0C00400AAAA

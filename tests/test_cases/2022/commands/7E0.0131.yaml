@@ -1,0 +1,11 @@
+command_id: 7E0.0131
+test_cases:
+- expected_values:
+    CLR_DIST: 44793
+  response: 7E8044131AEF9
+- expected_values:
+    CLR_DIST: 44799
+  response: 7E8044131AEFF
+- expected_values:
+    CLR_DIST: 44800
+  response: 7E8044131AF00
