@@ -5,3 +5,8 @@ test_cases:
   response: |-
     778100B62BC07000003
     778210000000000AAAA
+- expected_values:
+    HYUNDAI_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC07084003
+    77821F000000000AAAA
