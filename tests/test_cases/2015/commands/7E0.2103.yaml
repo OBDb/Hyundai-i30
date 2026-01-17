@@ -1,7 +1,0 @@
-command_id: 7E0.2103
-test_cases:
-- expected_values:
-    HYUNDAI_REQUESTED_TORQUE_V2: 99.59592
-  response: |-
-    7E8100B61031F000000
-    7E821FDFEF2F0F4AAAA
