@@ -1,6 +1,9 @@
+references:
+  - "https://en.wikipedia.org/wiki/Hyundai_i30"
+
 generations:
   - name: "First Generation (FD)"
-    start_year: 2007
+    start_year: 2006
     end_year: 2012
     description: "The original Hyundai i30 was introduced as a compact car (C-segment) primarily for European markets, though also sold in Australia and some Asian countries (as the Elantra in some regions). Designed at Hyundai's European center in Rüsselsheim, Germany, it featured conventional but European-influenced styling to compete directly with established models like the Volkswagen Golf and Ford Focus. Available in five-door hatchback and later station wagon body styles, it offered good interior space and practicality. Engine options varied by market but typically included petrol units ranging from 1.4L to a 2.0L, plus diesel options that were particularly important for European buyers. The interior was straightforward with decent materials and build quality for its price point. This generation established the i30 as Hyundai's first serious competitor in the European C-segment, winning praise for its value, practicality, and five-year warranty."
 
