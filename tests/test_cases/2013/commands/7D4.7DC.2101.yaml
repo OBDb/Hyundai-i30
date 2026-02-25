@@ -1,6 +1,14 @@
 command_id: 7D4.7DC.2101
 test_cases:
 - expected_values:
+    HYUNDAI_STEER_ANGLE_V2: -13.7
+    HYUNDAI_STEER_ANGLE_V3: -51.2
+  response: |-
+    7DC101761010D4CFAFF
+    7DC2177000023FFFE00
+    7DC2207001B21640708
+    7DC23000F6C00000000
+- expected_values:
     HYUNDAI_STEER_ANGLE_V2: 4.5
     HYUNDAI_STEER_ANGLE_V3: 0
   response: |-
