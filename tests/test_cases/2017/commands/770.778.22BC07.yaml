@@ -34,6 +34,11 @@ test_cases:
     HYUNDAI_DEFOG_LIGHT: 0
   response: |-
     778100B62BC07084003
+    77821F000020004AAAA
+- expected_values:
+    HYUNDAI_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC07084003
     77821F000020008AAAA
 - expected_values:
     HYUNDAI_DEFOG_LIGHT: 0
