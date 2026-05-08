@@ -4,4 +4,9 @@ test_cases:
     HYUNDAI_HAZARD_SW: 0
   response: |-
     778100B62BC057F1320
+    778210100000000AAAA
+- expected_values:
+    HYUNDAI_HAZARD_SW: 0
+  response: |-
+    778100B62BC057F1320
     778210100800080AAAA
