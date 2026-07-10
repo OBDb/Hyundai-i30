@@ -1,0 +1,8 @@
+command_id: 7E0.016C
+test_cases:
+- expected_values:
+    CTAC_A_SUP: 0
+    CTAC_B_SUP: 0
+    RTP_A_SUP: 0
+    RTP_B_SUP: 0
+  response: 7E803416C00
