@@ -1,10 +1,10 @@
 command_id: 7E1.7E9.2201A4
 test_cases:
 - expected_values:
-    HYUNDAI_CLUTCH_1_T: 86
-    HYUNDAI_CLUTCH_2_T: 98
-    HYUNDAI_GEAR_CUR: 0
-    HYUNDAI_GEAR_NXT: 0
+    I30_CLUTCH_1_T: 86
+    I30_CLUTCH_2_T: 98
+    I30_GEAR_CUR: 0
+    I30_GEAR_NXT: 0
   response: |-
     7E910316201A4FFFFFF
     7E92180000000360000

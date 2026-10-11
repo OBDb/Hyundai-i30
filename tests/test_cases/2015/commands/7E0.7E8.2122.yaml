@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.2122
+test_cases:
+- expected_values:
+    I30_BUTANE_LPG: 0
+    I30_LPG_ELECTRICAL_FUEL: 0
+    I30_LPG_LOW_SIDE_T: -48
+    I30_LPG_P_FUEL_RAIL_AVG: 0
+  response: |-
+    7E81010612200000000
+    7E82100000000000000
+    7E822000000AAAAAAAA
