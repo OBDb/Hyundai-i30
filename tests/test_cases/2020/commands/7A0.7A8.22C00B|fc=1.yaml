@@ -1,0 +1,12 @@
+command_id: 7A0.7A8.22C00B|fc=1
+test_cases:
+- expected_values:
+    I30_TP_FL: 39.4
+    I30_TP_FR: 39.8
+    I30_TP_RL: 36.6
+    I30_TP_RR: 36.4
+  response: |-
+    7A8101762C00BFFFF00
+    7A82100C5530100C756
+    7A8220100B74F0100B6
+    7A8234F0100AAAAAAAA
