@@ -169,6 +169,20 @@
     {"id": "I30_COOLANT_FAN_HIGH_SPEED", "path": "Movement", "fmt": {"bix": 171, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Coolant fan high speed"},
     {"id": "I30_KNOCK_DETECTED",         "path": "Engine",   "fmt": {"bix": 200, "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock detected"}
   ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2011 }, "dbgfilter": { "years": [2010] },
+  "signals": [
+    {"id": "I30_CONTROL_MODULE_VOLTAGE_FD",                "path": "Battery",  "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                                   "unit": "scalar"  },                   "name": "Control module voltage, raw count"},
+    {"id": "I30_CONTROL_MODULE_VOLTAGE_AFTER_IGNITION_FD", "path": "Battery",  "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                                   "unit": "scalar"  },                   "name": "Control module voltage after ignition, raw count"},
+    {"id": "I30_ENGINE_RPM_FD",                            "path": "Movement", "fmt": {"bix": 56,  "len": 16, "blsb": true,  "max": 16383.75,                                   "div": 4,                     "unit": "rpm"        },                                                          "name": "Engine RPM"},
+    {"id": "I30_COMMANDED_ENGINE_IDLE_RPM_FD",             "path": "Movement", "fmt": {"bix": 72,  "len": 8,  "max": 2550,                    "mul": 10,                                    "unit": "rpm"     },                   "name": "Commanded engine idle RPM"},
+    {"id": "I30_MAP_SENSOR_VOLTAGE_FD",                    "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,  "max": 319.9951,              "mul": 0.0048828125,                               "unit": "volts"      },                                                          "name": "Manifold pressure sensor voltage"},
+    {"id": "I30_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE_FD",     "path": "Engine",   "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255.996,                                    "div": 256,                   "unit": "kilopascal" },                                                          "name": "Intake manifold absolute pressure"},
+    {"id": "I30_COOLANT_T_SENSOR_VOLTAGE_FD",              "path": "Battery",  "fmt": {"bix": 184, "len": 16, "blsb": true,  "max": 319.9951,              "mul": 0.0048828125,                               "unit": "volts"      },                                                          "name": "Coolant temperature sensor voltage"},
+    {"id": "I30_ENGINE_COOLANT_T_FD",                      "path": "Engine",   "fmt": {"bix": 200, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine coolant temperature"},
+    {"id": "I30_IAT_SENSOR_VOLTAGE_FD",                    "path": "Battery",  "fmt": {"bix": 248, "len": 16, "blsb": true,  "max": 319.9951,              "mul": 0.0048828125,                               "unit": "volts"      },                                                          "name": "Intake air temperature sensor voltage"},
+    {"id": "I30_INTAKE_AIR_T_FD",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
+    {"id": "I30_ENGINE_OIL_T_FD",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,      "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
+  ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "from": 2012 }, "dbgfilter": { "years": [2012, 2014], "from": 2016 },
   "signals": [
     {"id": "I30_CONTROL_MODULE_VOLTAGE",                "path": "Battery",  "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                                   "unit": "volts"   },                   "name": "Control module voltage"},

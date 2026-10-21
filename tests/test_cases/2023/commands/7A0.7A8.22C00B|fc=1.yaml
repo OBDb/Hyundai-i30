@@ -96,6 +96,16 @@ test_cases:
     7A8220100CE450100CE
     7A823430100AAAAAAAA
 - expected_values:
+    I30_TP_FL: 40.6
+    I30_TP_FR: 41.6
+    I30_TP_RL: 41.2
+    I30_TP_RR: 41.2
+  response: |-
+    7A8101762C00BFFFF00
+    7A82100CB470100D048
+    7A8220100CE450100CE
+    7A823430100AAAAAAAA
+- expected_values:
     I30_TP_FL: 41
     I30_TP_FR: 41.4
     I30_TP_RL: 41.6

@@ -26,6 +26,13 @@ test_cases:
     7A82200029843010093
     7A823440100AAAAAAAA
 - expected_values:
+    I30_TP_RL: 30.6
+  response: |-
+    7A8101762C00BFFFF00
+    7A82100000000020000
+    7A82200029937010000
+    7A823000002AAAAAAAA
+- expected_values:
     I30_TP_RL: 34
     I30_TP_RR: 36
   response: |-
