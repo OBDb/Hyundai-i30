@@ -15,6 +15,34 @@ test_cases:
     778100B62BC03FFEE3C
     778217300622C00AAAA
 - expected_values:
+    I30_BELT_DRIV: 0
+    I30_BELT_PASS: 0
+    I30_DEFOG_SW: 0
+    I30_DOOR_FL: 0
+    I30_DOOR_FR: 0
+    I30_DOOR_RL: 0
+    I30_DOOR_RR: 0
+    I30_HANDBRAKE: 1
+    I30_HOOD: 0
+    I30_TRUNK: 0
+  response: |-
+    778100B62BC03FFEE3C
+    77821730A600000AAAA
+- expected_values:
+    I30_BELT_DRIV: 0
+    I30_BELT_PASS: 0
+    I30_DEFOG_SW: 0
+    I30_DOOR_FL: 0
+    I30_DOOR_FR: 0
+    I30_DOOR_RL: 0
+    I30_DOOR_RR: 0
+    I30_HANDBRAKE: 1
+    I30_HOOD: 0
+    I30_TRUNK: 0
+  response: |-
+    778100B62BC03FFEE3C
+    77821730A602C00AAAA
+- expected_values:
     I30_BELT_DRIV: 1
     I30_BELT_PASS: 0
     I30_DEFOG_SW: 0
@@ -56,6 +84,48 @@ test_cases:
   response: |-
     778100B62BC03FFEE3C
     778217340000000AAAA
+- expected_values:
+    I30_BELT_DRIV: 0
+    I30_BELT_PASS: 0
+    I30_DEFOG_SW: 0
+    I30_DOOR_FL: 0
+    I30_DOOR_FR: 0
+    I30_DOOR_RL: 0
+    I30_DOOR_RR: 0
+    I30_HANDBRAKE: 0
+    I30_HOOD: 0
+    I30_TRUNK: 0
+  response: |-
+    778100B62BC03FFEE3C
+    778217340002C00AAAA
+- expected_values:
+    I30_BELT_DRIV: 0
+    I30_BELT_PASS: 0
+    I30_DEFOG_SW: 0
+    I30_DOOR_FL: 0
+    I30_DOOR_FR: 0
+    I30_DOOR_RL: 0
+    I30_DOOR_RR: 0
+    I30_HANDBRAKE: 0
+    I30_HOOD: 0
+    I30_TRUNK: 0
+  response: |-
+    778100B62BC03FFEE3C
+    778217340600000AAAA
+- expected_values:
+    I30_BELT_DRIV: 1
+    I30_BELT_PASS: 0
+    I30_DEFOG_SW: 0
+    I30_DOOR_FL: 0
+    I30_DOOR_FR: 0
+    I30_DOOR_RL: 0
+    I30_DOOR_RR: 0
+    I30_HANDBRAKE: 0
+    I30_HOOD: 0
+    I30_TRUNK: 0
+  response: |-
+    778100B62BC03FFEE3C
+    778217340620000AAAA
 - expected_values:
     I30_BELT_DRIV: 0
     I30_BELT_PASS: 0

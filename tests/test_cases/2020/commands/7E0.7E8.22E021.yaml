@@ -5,7 +5,7 @@ test_cases:
     I30_WG_DUTY: 78.12506
     I30_WG_POS: 1.01318
     I30_WG_SP: 0
-    I30_WG_V: 3.90625
+    I30_WG_V: 3.93067
   response: |-
     7E8104562E021FE9FCE
     7E8217F00006028782F
