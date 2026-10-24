@@ -2,10 +2,10 @@ command_id: 7E0.7E8.22E021
 test_cases:
 - expected_values:
     I30_TB_PRES: 88.3489
-    I30_WG_DUTY: 76.56255
+    I30_WG_DUTY: 76.66021
     I30_WG_POS: 0.94605
     I30_WG_SP: 0
-    I30_WG_V: 3.83301
+    I30_WG_V: 3.86231
   response: |-
     7E8104562E021FE9FCE
     7E8217F00000029A02F
@@ -19,10 +19,10 @@ test_cases:
     7E82965A0662061C05D
 - expected_values:
     I30_TB_PRES: 88.44839
-    I30_WG_DUTY: 76.56255
+    I30_WG_DUTY: 76.66021
     I30_WG_POS: 0.94605
     I30_WG_SP: 0
-    I30_WG_V: 3.83301
+    I30_WG_V: 3.86231
   response: |-
     7E8104562E021FE9FCE
     7E8217F00000029AC2F
@@ -39,7 +39,7 @@ test_cases:
     I30_WG_DUTY: 76.56255
     I30_WG_POS: 0.94605
     I30_WG_SP: 0
-    I30_WG_V: 3.82813
+    I30_WG_V: 3.86231
   response: |-
     7E8104562E021FE9FCE
     7E8217F0000E028AC2F
@@ -53,10 +53,10 @@ test_cases:
     7E82965A0662061C05D
 - expected_values:
     I30_TB_PRES: 86.32589
-    I30_WG_DUTY: 76.56255
+    I30_WG_DUTY: 76.66021
     I30_WG_POS: 0.94605
     I30_WG_SP: 0
-    I30_WG_V: 3.83301
+    I30_WG_V: 3.86231
   response: |-
     7E8104562E021FE9FCE
     7E8217F0000E028AC2F

@@ -304,15 +304,15 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "14"}, "freq": 0.25, "dbgfilter": { "from": 2016 },
   "signals": [
-    {"id": "I30_COMMANDED_THROTTLE_ACTUATOR",                 "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 99.6,                 "mul": 0.390625,                                              "unit": "percent" },                "name": "Commanded throttle actuator"},
-    {"id": "I30_THROTTLE_POSITION__1",                        "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 799,    "min": -800,     "mul": 0.0244140625,           "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #1"},
-    {"id": "I30_THROTTLE_POSITION__2",                        "path": "Engine",   "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 799,    "min": -800,     "mul": 0.0244140625,           "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #2"},
-    {"id": "I30_THROTTLE_POSITION_SENSOR_VOLTAGE__2",         "path": "Battery",  "fmt": {"bix": 80,  "len": 16, "blsb": true, "max": 79,                      "mul": 0.0012207031,                                           "unit": "volts"   },                                             "name": "Throttle position sensor voltage #2"},
-    {"id": "I30_COOLANT_FAN",                                 "path": "Engine",   "fmt": {"bix": 96,  "len": 8,  "max": 100,                                                                                "unit": "percent" },                "name": "Coolant"},
-    {"id": "I30_RELATIVE_ACCELERATOR_PEDAL_POSITION_VOLTAGE", "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true, "max": 6553.4, "min": -6553.6,                       "div": 5, "sign": true,                   "unit": "volts"   },                                             "name": "Relative accelerator pedal position voltage"},
-    {"id": "I30_RELATIVE_ACCELERATOR_PEDAL_POSITION",         "path": "Movement", "fmt": {"bix": 128, "len": 8,  "max": 99.6,                 "mul": 0.390625,                                              "unit": "percent" },                "name": "Relative accelerator pedal position"},
-    {"id": "I30_REQUESTED_TORQUE",                            "path": "Engine",   "fmt": {"bix": 176, "len": 16, "max": 100,                  "mul": 0.001526,                                              "unit": "percent" },                "name": "Requested torque"},
-    {"id": "I30_THROTTLE_POSITION_SENSOR_VOLTAGE__1",         "path": "Battery",  "fmt": {"bix": 360, "len": 16, "blsb": true, "max": 79,                      "mul": 0.0012207031,                                           "unit": "volts"   },                                             "name": "Throttle position sensor voltage #1"}
+    {"id": "I30_COMMANDED_THROTTLE_ACTUATOR",                 "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 99.6,              "mul": 0.390625,                                    "unit": "percent" },                "name": "Commanded throttle actuator"},
+    {"id": "I30_THROTTLE_POSITION__1",                        "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 799, "min": -800,     "mul": 0.0244140625, "sign": true,                   "unit": "percent" },                                                          "name": "Throttle position #1"},
+    {"id": "I30_THROTTLE_POSITION__2",                        "path": "Engine",   "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 799, "min": -800,     "mul": 0.0244140625, "sign": true,                   "unit": "percent" },                                                          "name": "Throttle position #2"},
+    {"id": "I30_THROTTLE_POSITION_SENSOR_VOLTAGE__2",         "path": "Battery",  "fmt": {"bix": 80,  "len": 16, "blsb": true, "max": 79,                   "mul": 0.0012207031,                                 "unit": "volts"   },                                                          "name": "Throttle position sensor voltage #2"},
+    {"id": "I30_COOLANT_FAN",                                 "path": "Engine",   "fmt": {"bix": 96,  "len": 8,  "max": 100,                                                                   "unit": "percent" },                "name": "Coolant"},
+    {"id": "I30_RELATIVE_ACCELERATOR_PEDAL_POSITION_VOLTAGE", "path": "Battery",  "fmt": {"bix": 112, "len": 16, "max": 65535,                                                                 "unit": "scalar"  },                "name": "Relative accelerator pedal position voltage, raw"},
+    {"id": "I30_RELATIVE_ACCELERATOR_PEDAL_POSITION",         "path": "Movement", "fmt": {"bix": 128, "len": 8,  "max": 99.6,              "mul": 0.390625,                                    "unit": "percent" },                "name": "Relative accelerator pedal position"},
+    {"id": "I30_REQUESTED_TORQUE",                            "path": "Engine",   "fmt": {"bix": 176, "len": 16, "max": 100,               "mul": 0.001526,                                    "unit": "percent" },                "name": "Requested torque"},
+    {"id": "I30_THROTTLE_POSITION_SENSOR_VOLTAGE__1",         "path": "Battery",  "fmt": {"bix": 360, "len": 16, "blsb": true, "max": 79,                   "mul": 0.0012207031,                                 "unit": "volts"   },                                                          "name": "Throttle position sensor voltage #1"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "15"}, "freq": 1, "dbgfilter": { "from": 2016 },
   "signals": [
@@ -577,11 +577,11 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E021"}, "freq": 1, "dbgfilter": { "from": 2024 },
   "signals": [
-    {"id": "I30_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543,                 "mul": 0.008291,                                   "unit": "kilopascal" }, "name": "Turbo boost pressure"},
-    {"id": "I30_WG_V",    "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 9.99,                "mul": 0.000152588,                                "unit": "volts"      }, "name": "Waste gate voltage"},
-    {"id": "I30_WG_DUTY", "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 199,                 "mul": 0.00305176,                                 "unit": "percent"    }, "name": "Waste gate duty"},
-    {"id": "I30_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 199.99, "min": -200, "mul": 0.00610352,  "sign": true, "nullmin": -200, "unit": "percent"    }, "name": "Waste gate position"},
-    {"id": "I30_WG_SP",   "path": "Engine", "fmt": {"bix": 440, "len": 16, "max": 199.99, "min": -200, "mul": 0.00610352,  "sign": true, "nullmin": -200, "unit": "percent"    }, "name": "Waste gate set point"}
+    {"id": "I30_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543,                  "mul": 0.008291,                                                    "unit": "kilopascal" },                "name": "Turbo boost pressure"},
+    {"id": "I30_WG_V",    "path": "Engine", "fmt": {"bix": 384, "len": 16, "blsb": true, "max": 9.99,                    "mul": 0.000152588,                                                     "unit": "volts"   },                              "name": "Waste gate voltage"},
+    {"id": "I30_WG_DUTY", "path": "Engine", "fmt": {"bix": 400, "len": 16, "blsb": true, "max": 199,                     "mul": 0.00305176,                                                      "unit": "percent" },                              "name": "Waste gate duty"},
+    {"id": "I30_WG_POS",  "path": "Engine", "fmt": {"bix": 432, "len": 16, "blsb": true, "max": 199.99, "min": -200,     "mul": 0.00610352,  "sign": true, "nullmin": -200,                      "unit": "percent" },                              "name": "Waste gate position"},
+    {"id": "I30_WG_SP",   "path": "Engine", "fmt": {"bix": 448, "len": 16, "blsb": true, "max": 199.99, "min": -200,     "mul": 0.00610352,  "sign": true, "nullmin": -200,                      "unit": "percent" },                              "name": "Waste gate set point"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "E023"}, "freq": 1,
   "signals": [
