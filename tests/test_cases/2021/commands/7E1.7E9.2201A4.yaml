@@ -3,7 +3,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 15
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -18,7 +17,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 15
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -33,7 +31,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 15
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -48,7 +45,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 15
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -63,7 +59,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 10
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -78,7 +73,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 10
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -93,7 +87,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 3
+    I30_GEAR_CUR: '3'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -108,7 +102,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 5
+    I30_GEAR_CUR: '5'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -123,7 +117,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 14
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -138,7 +131,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 9
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -153,7 +145,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 15
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -168,7 +159,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 2
+    I30_GEAR_CUR: '2'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -183,7 +174,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 11
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -198,7 +188,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 1
+    I30_GEAR_CUR: '1'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -213,7 +203,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 13
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -228,7 +217,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 0
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -243,7 +231,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 0
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -258,7 +245,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 4
+    I30_GEAR_CUR: '4'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -273,7 +260,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 7
+    I30_GEAR_CUR: '7'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -288,7 +275,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 2
+    I30_GEAR_CUR: '2'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -303,7 +290,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 1
+    I30_GEAR_CUR: '1'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -318,7 +305,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 11
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -333,7 +319,6 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 14
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -348,7 +333,7 @@ test_cases:
 - expected_values:
     I30_CLUTCH_1_T: 300
     I30_CLUTCH_2_T: 300
-    I30_GEAR_CUR: 5
+    I30_GEAR_CUR: '5'
     I30_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
