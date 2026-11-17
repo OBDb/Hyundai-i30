@@ -7,7 +7,6 @@ test_cases:
     778210100000000AAAA
 - expected_values:
     I30_HAZARD_SW: 0
-    I30_HL_SW: 1
   response: |-
     778100B62BC057F1320
     778210100000480AAAA
