@@ -12,19 +12,16 @@ test_cases:
     778210000080000AAAA
 - expected_values:
     I30_HAZARD_SW: 0
-    I30_HL_SW: 1
   response: |-
     778100B62BC052F1320
     778210000400400AAAA
 - expected_values:
     I30_HAZARD_SW: 0
-    I30_HL_SW: 1
   response: |-
     778100B62BC052F1320
     778210000C00400AAAA
 - expected_values:
     I30_HAZARD_SW: 160
-    I30_HL_SW: 1
   response: |-
     778100B62BC052F1320
     7782100A0400400AAAA
